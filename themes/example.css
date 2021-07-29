@@ -1,0 +1,16 @@
+/* @theme example */
+
+@import 'uncover';
+
+section {
+  background: #cef;
+  color: #135;
+}
+
+section.lead {
+  text-align: center;
+}
+
+section.left {
+  text-align: left;
+}
