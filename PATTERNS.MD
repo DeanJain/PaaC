@@ -15,7 +15,7 @@ footer: "PaaC Rocks :heart:"
 
 # <!--fit--> Design Principles & Patterns
 
- <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+ <br /> <br /> <br /> <br /> <br /> <br /> <br/><br/> 
 ##### Dean.Jain - Staff Engineer @Amex
 
 <!-- This is presenter note. You can write down notes through HTML comment. -->
@@ -88,8 +88,30 @@ footer: "PaaC Rocks :heart:"
 
 <style scoped> { font-size:32px;}</style>  
 ---
+### Microservices Patterns
+
+![width:1100px height:500px](https://microservices.io/i/PatternsRelatedToMicroservices.jpg)
+
+---
+![bg](#123)
+![](#fff)
+### Modern Design Patterns ++
+1. Circuit Breaker
+  Acts as a proxy for operations that might fail. The proxy should monitor the number of recent failures that have occurred, and use this information to decide whether to allow the operation to proceed, or simply return an exception immediately. Netflix’s Hystrix or Reselience4J or Envoy proxy can be used to implement it.
+
+2. Sidecar
+   Envoy Proxy is one of the most popular sidecar proxies, It helps you keep the core functionality of the application separate, using the sidecar to isolate common features like networking, observability, and security.
+
+3. Backend-for-Frontend
+   build/customize back-end services for the specific front end (Mobile vs desktop), gateway can be used to do redirection based on user agent
+   
+4. Strangler
+   creating a facade on top of your legacy and a new application, providing an abstracted view to the consumers so that cloud migration/moderniazation is easier.
+
+<style scoped> { font-size:24px;}</style> 
+---
 <!-- _class: lead -->
-### Classification of Patterns:
+### Classic Design Patterns:
 1. **Creational** patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
 
 2. **Structural** patterns explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
@@ -223,7 +245,7 @@ lets you separate algorithms from the objects on which they operate. The Visitor
 - https://refactoring.guru/design-patterns
 - https://foxlearn.com/design-patterns/what-are-design-patterns-431.html
 - https://en.wikipedia.org/wiki/Design_Patterns
+- https://microservices.io/patterns/microservices.html
   
-<br />
 
 Powered by PaaC (Presentation as a Code) :heart::purple_heart::green_heart::blue_heart:
