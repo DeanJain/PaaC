@@ -15,8 +15,11 @@ footer: "PaaC Rocks :heart:"
 
 # <!--fit--> Design Principles & Patterns
 
- <br /> <br /> <br /> <br /> <br /> <br /> <br/><br/> 
-##### Dean.Jain - Staff Engineer @Amex
+<br /> <br />
+###### If debugging is the process of removing software bugs, then programming must be the process of putting them in...  ~Edsger Dijkstra
+<br/><br/>
+
+### Dean.Jain - Staff Engineer @Amex
 
 <!-- This is presenter note. You can write down notes through HTML comment. -->
 
