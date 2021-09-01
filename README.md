@@ -12,7 +12,8 @@ Idea is to have the presentation built with simple mardown files and embed it wi
 - Convert markdown to presentable html format using node/npx command
 - Commit html to git repo and enable github pages via settings tab
 - Blazingly fast delivery on your presentation via Github Pages
-- [Demo PaaC](./PITCHME.html)
+- Sample: https://deanjain.github.io/Presentations/PATTERNS.html
+
 
 
 ### PreReq
@@ -31,15 +32,15 @@ Idea is to have the presentation built with simple mardown files and embed it wi
 
 ### Edit deck
 
-Just edit **[`PITCHME.md`](./PITCHME.md)**!
+Just edit **Your Markdown File**!
 
 ### CodeGen CLI
 
 ```yaml
-npx @marp-team/marp-cli -w PITCHME.md                            
+npx @marp-team/marp-cli -w YourMarkdown.md                            
 npx: installed 266 in 30.6s
 [  INFO ] Converting 1 markdown...
-[  INFO ] PITCHME.md => PITCHME.html
+[  INFO ] YourMarkdown.md => YourMarkdown.html
 ```
 
 ### Deploy on Github Pages
